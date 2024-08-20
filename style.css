@@ -1,0 +1,499 @@
+@font-face {
+    font-family: myfont;
+    src: url(Day_8\3856NeueMachina.woff2);
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: black;
+}
+
+html,
+body{
+    height:100%;
+    width:100%;
+}
+
+.section1{
+    padding: 35px 80px;
+}
+
+nav h1{
+    font-size: 30px;
+    display: flex;
+    gap:10px;
+}
+
+nav h1 i{
+    rotate: 45deg;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.part2 button{
+    font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid black 1px;
+}
+
+.center{
+    height: 70vh;
+    width: 100%;
+    padding: 59px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_p1{
+    width: 45%;
+    height: 100%; 
+}
+
+.center_p1 h1{
+    font-size: 80px;
+    line-height: 0.96;
+    font-family: myfont;
+    
+}
+
+.center_p1 p{
+    font-size: 19px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.center_p1 button{
+    font-size: 18px;
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.center_p2{
+    width: 55%;
+    height: 100%;
+
+    
+}
+
+.center_p2 img{
+    height:100%;
+    width:100%;
+
+}
+
+.section1bottom{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 20vh;
+     padding: 35px 80px;
+     
+}
+
+.section1bottom img{
+    height: 45px;
+    width: auto;
+    
+}
+
+.section2{
+    padding: 35px 80px;
+}
+
+.section2 .services{
+    display: flex;
+    justify-content: flex-start;
+    gap:50px;
+    width:50%;
+
+}
+
+.section2 .services h2{
+    font-weight: 500;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48B760;
+    padding: 10px 10px;
+    font-size: 40px;
+}
+
+.section2 .blocks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.section2 .blocks .elements{
+    width: 700px;
+    height: 350px;
+    border-radius: 50px;
+    border: solid black 1px;
+    flex-shrink: 0;
+    box-shadow: 0px 5px black;
+    
+}
+.elements{
+    display: flex;
+
+}
+
+/* element 1 */
+.elements .elem1{
+    padding: 60px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements .elem1 h4{
+    background-color: #48B760;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.elements .elem1 h5{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: gray;
+}
+
+.elements .elem1 h5 i{
+    border-radius: 50%;
+    background-color: black;
+    color: #48B760;
+    padding: 10px;
+
+}
+
+.elements .img1{
+    height: auto;
+    width: 50%;
+    padding: 50px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.elements .img1 img{
+    height: auto;
+    width: 320px;
+    padding-right: 80px;   
+}
+
+
+/* element 2 */
+.elements .elem2{
+    padding: 60px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 50px 0px 0px 40px;
+}
+
+.elements .elem2 h4{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.elements .elem2 h5{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.elements .elem2 h5 i{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+
+}
+
+.elements .img2{
+    height: auto;
+    width: 50%;
+    padding: 50px;
+    background-color: black;
+    border-radius: 0px 50px 40px 0px;
+}
+
+.elements .img2 img{
+    height: auto;
+    width: 320px;
+    padding-right: 50px;   
+}
+
+
+/* element 3*/
+.elements .elem3{
+    padding: 60px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 50px 0px 0px 40px;
+}
+
+.elements .elem3 h4{
+    background-color: white;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.elements .elem3 h5{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.elements .elem3 h5 i{
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+
+}
+.elements .img3 img{
+    height: auto;
+    width:250px;
+}
+
+.elements .img3{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    border-radius: 0px 50px 40px 0px;
+    padding: 50px;
+}
+
+
+
+/* element 4 */
+.elements .elem4{
+    padding: 60px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.elements .elem4 h4{
+    background-color: #48B760;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.elements .elem4 h5{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: gray;
+}
+
+.elements .elem4 h5 i{
+    border-radius: 50%;
+    background-color: black;
+    color: #48B760;
+    padding: 10px;
+
+}
+
+.elements .img4{
+    height: auto;
+    width: 50%;
+    padding: 50px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.elements .img4 img{
+    height: auto;
+    width: 300px;  
+    transform: rotate(90deg);
+    
+}
+
+
+
+/* section3 */
+
+.section3{
+     height: 100%;
+     width: 100%;
+     padding: 100px 80px;
+    
+}
+
+.section3 .proposal{
+     background-color: rgba(201, 200, 200, 0.304);
+     border-radius: 50px;
+     display: flex;
+     height: 35vh;
+}
+
+.section3 .proposal .p1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    padding: 70px 230px 70px 50px;
+
+   
+}
+
+.section3 .proposal .p1 h2{
+    font-weight:500;
+   
+}
+.section3 .proposal .p1 h4{
+    font-weight: 400;
+   
+}
+.section3 .proposal .p1 button{
+    font-weight: 500;
+    background-color: black;
+    border-radius: 10px;
+    height: 32%;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+   
+}
+
+
+.section3 .proposal .p2 {
+    height: 100%;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+ }
+ 
+/* .section3 .proposal .p2 img{
+   background-color: rgba(201, 200, 200, 0.304);
+   
+} */
+
+
+.section3 .pagebottom .case_study{
+      width: 50%;
+      display: flex;
+      gap: 10px;
+      padding:150px 0px 50px 0px;
+}
+
+.section3 .pagebottom .case_study h1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    word-wrap: none;
+    background-color: #48B760;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.section3 .pagebottom .bottom{
+    display: flex;
+    height: 27vh;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 30px;
+    background-color: #131313;
+
+}
+
+.section3 .pagebottom .bottom .block{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 50px;
+    height: 60%;
+    border-right: 1px solid #ccc; 
+   
+}
+.section3 .pagebottom .bottom .block:last-child {
+    border-right: none; /* Remove the line from the last block */
+  }
+
+.section3 .pagebottom .bottom .block p{
+    color: white;
+}
+
+.section3 .pagebottom .bottom .block h5{
+    display: flex;
+    gap: 10px;
+    color: #48B760;
+    font-size: 20px;
+    font-weight: 300;
+}
+.section3 .pagebottom .bottom .block h5 i{
+    color:  #48B760;
+    font-size: 20px;
+    font-weight: 300;
+
+}
