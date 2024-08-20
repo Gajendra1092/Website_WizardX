@@ -15,7 +15,9 @@ body{
     height:100%;
     width:100%;
 }
-
+body{
+    overflow-x: hidden;
+}
 .section1{
     padding: 35px 80px;
 }

@@ -47,45 +47,50 @@ tl.from(".section1bottom img",{
 
 page1animation();
 
-var tl2 = gsap.timeline({
-    scrollTrigger:{
-    scroller:"body",
-    trigger:".section2",
-    markers:true,
-    start:"top 50%",
-    end:"top 0%",
-    scrub: 2,
-}})
+function page2animation() {
+    var tl2 = gsap.timeline({
+        scrollTrigger:{
+        scroller:"body",
+        trigger:".section2",
+        start:"top 50%",
+        end:"top 0%",
+        scrub: 2,
+    }})
+    
+    tl2.from(".section2 .services",{
+        x:-60,
+        opacity:0,
+        duration:1,
+      
+    })
+    
+    tl2.from(".section2 .blocks .elements:first-child",{
+        x:-300,
+        opacity:0,
+        duration:2,
+    },"gajendra")
+    
+    tl2.from(".section2 .blocks .elements:nth-child(2)",{
+        x:+300,
+        opacity:0,
+        duration:2,
+    },"gajendra")
+    
+    
+    tl2.from(".section2 .blocks .elements:nth-child(3)",{
+        x:-300,
+        opacity:0,
+        duration:2,
+    },"gajendraN")
+    
+    tl2.from(".section2 .blocks .elements:nth-child(4)",{
+        x:+300,
+        opacity:0,
+        duration:2,
+    },"gajendraN")
+    
+}
 
-tl2.from(".section2 .services",{
-    x:-60,
-    opacity:0,
-    duration:1,
-  
-})
+page2animation()
 
-tl2.from(".section2 .blocks .elements:first-child",{
-    x:-300,
-    opacity:0,
-    duration:2,
-},"gajendra")
-
-tl2.from(".section2 .blocks .elements:nth-child(2)",{
-    x:+300,
-    opacity:0,
-    duration:2,
-},"gajendra")
-
-
-tl2.from(".section2 .blocks .elements:nth-child(3)",{
-    x:-300,
-    opacity:0,
-    duration:2,
-},"gajendraN")
-
-tl2.from(".section2 .blocks .elements:nth-child(4)",{
-    x:+300,
-    opacity:0,
-    duration:2,
-},"gajendraN")
 
