@@ -55,7 +55,7 @@ nav .part2{
 .center{
     height: 70vh;
     width: 100%;
-    padding: 59px 0px;
+    padding: 80px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -447,10 +447,10 @@ nav .part2{
 }
 
 .section3 .pagebottom .case_study h1{
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: center;
-    word-wrap: none;
+    text-wrap: none;
     background-color: #48B760;
     font-weight: 500;
     padding: 3px;
